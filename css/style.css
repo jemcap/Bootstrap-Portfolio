@@ -121,7 +121,6 @@ select {
 
 
 
-
 /* --------------------- */
 /*   Header Styling      */
 /* --------------------- */
@@ -184,15 +183,21 @@ select {
   border-radius: 50%;
 }
 
-/* Projects */
+/* --------------------- */
+/*   Projects Styling    */
+/* --------------------- */
+
 
 #card-wrapper {
   gap: 1.2rem;
 }
 
-/* Projects end */
 
-/* Skills start */
+
+/* --------------------- */
+/*   Skills Styling      */
+/* --------------------- */
+
 
 
 .tech__items {
@@ -213,7 +218,10 @@ select {
     border-radius: 20px;
 }
 
-/* Skills end */
+
+/* --------------------- */
+/*   Footer Styling      */
+/* --------------------- */
 
 #footer-btn a i {
   transition: all 350ms ease-in-out;
