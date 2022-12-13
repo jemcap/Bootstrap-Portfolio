@@ -15,4 +15,4 @@ MIT License - allow to make and distributing closed source versions.
 
 ## Preview of webpage
 
-https://jemcap.github.io/responsive-dev-portfolio/
+https://jemcap.github.io/Bootstrap-Portfolio/
