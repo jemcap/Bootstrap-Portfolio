@@ -118,6 +118,18 @@ select {
   padding-block: 5rem;
 }
 
+/* Project grid -- the content in being underlined when hovered over it. I am trying to set it so that it doesn't underline -- it is not working. */
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
 
 
 
