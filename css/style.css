@@ -113,6 +113,13 @@ select {
     list-style-type: none;
 }
 
+.section-line {
+  border-top: solid 2px #252525;
+  padding-block: 5rem;
+}
+
+
+
 
 
 /* --------------------- */
@@ -131,13 +138,13 @@ select {
     gap: min(2vw, 3rem);
 }
 
-.nav-item > .nav-link {
+.navbar-nav > .nav-link {
     transition: all 350ms ease;
     color: #252525;
 
 }
 
-.nav-item > .nav-link:hover {
+.navbar-nav> .nav-link:hover {
     color: blue;
 }
 
@@ -200,12 +207,22 @@ select {
 }
 
 .item,
-.project__content {
+.work {
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     border-radius: 20px;
 }
 
 /* Skills end */
 
+#footer-btn a i {
+  transition: all 350ms ease-in-out;
+  padding: 1.2rem;
+}
+
+
+
+#footer-btn a i:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
 

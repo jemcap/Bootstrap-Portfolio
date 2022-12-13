@@ -17,17 +17,17 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="./images/jec_logo_1.png" alt="" width="125px"></a>
+            <a class="navbar-brand" href="#hero"><img src="./images/jec_logo_1.png" alt="" width="125px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-item nav-link" href="#hero">Home <span class="sr-only">Home</span></a>
+                    <a class="nav-item nav-link" href="#about">About</a> <span class="sr-only">About</span>
+                    <a class="nav-item nav-link" href="#skills">Projects</a> <span class="sr-only">Projects</span>
+                    <a class="nav-item nav-link" href="#contact">Contact</a> <span class="sr-only">Contact</span>
                 </div>
             </div>
         </nav>
@@ -35,40 +35,39 @@
     <!-- ====================================== End Header Section ====================================== -->
 
 
-    <!-- ====================================== Start Main Section ====================================== -->
-    <main>
-        <section class="jumbotron bg-transparent">
+    <section class="jumbotron bg-transparent" id="hero">
 
-            <div class="container">
-                <div class="flex w-100 h-100" id="main__container">
-                    <div class="col-lg-7 flex" id="main__content">
-                        <h5 class="display-5">A showcase of my digital work</h5>
-                        <h1 class="main__heading">Welcome to my Portfolio!</h1>
-                        <h5 class="display-5">UX/UI Design • Web Development</h5>
-                        <div class="main__cta my-5">
-                            <p class="lead">
-                                <a class="btn btn-primary btn-md" id="first-btn" href="#" role="button">Start now for
-                                    free!</a>
-                            </p>
-                            <p class="lead">
-                                <a class="btn btn-secondary btn-md" id="second-btn" href="#" role="button">Start now for
-                                    free!</a>
-                            </p>
-                        </div>
+        <div class="container">
+            <div class="flex w-100 h-100" id="main__container">
+                <div class="col-lg-7 flex" id="main__content">
+                    <h5 class="display-5">A showcase of my digital work</h5>
+                    <h1 class="main__heading">Welcome to my Portfolio!</h1>
+                    <h5 class="display-5">UX/UI Design • Web Development</h5>
+                    <div class="main__cta my-5">
+                        <p class="lead">
+                            <a class="btn btn-primary btn-md" id="first-btn" href="https://www.linkedin.com/in/joshuaecapito/" target="_blank" role="button">Connect with me!</a>
+                        </p>
+                        <p class="lead">
+                            <a class="btn btn-secondary btn-md" id="second-btn" href="https://www.instagram.com/capitogram/" target="_blank" role="button">Follow me!</a>
+                        </p>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="device-container">
-                            <div class="image">
-                                <img src="./images/profile-circle.png" alt="">
-                            </div>
-
+                </div>
+                <div class="col-lg-5">
+                    <div class="device-container">
+                        <div class="image">
+                            <img src="./images/profile-circle.png" alt="">
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- ====================================== Start Main Section ====================================== -->
+    <main class>
 
         <!-- ====================================== Start About Section ====================================== -->
         <section class="jumbotron bg-transparent" id="about">
@@ -103,152 +102,156 @@
         </section>
         <!-- ====================================== End About Section ====================================== -->
 
-        <!-- ====================================== Start Projects Section ====================================== -->
-        <section id="projects">
-            <div class="container">
-                <div class="project__content py-4">
-                    <div class="project__header">
-                        <h1>Projects</h1>
-                    </div>
-                    
-                        <div class="row" id="card-wrapper">
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
 
-                    
-                        
-                
+
+        <!-- ====================================== Start Skills Section ====================================== -->
+        <section class="work container">
+            <section id="skills">
+
+                <div class="container">
+                    <div class="skills-wrapper">
+                        <div class="skills__heading flex-block">
+                            <h1 class="display-5">Check out my work!</h1>
+                            <h5 class="display-6">I will be learning and applying</h5>
+                        </div>
+
+
+                        <div class="skills__tech flex">
+
+                            <ul class="tech__items flex no-style">
+                                <li class="item" id="html5">
+                                    <a href="">
+                                        <i class="fa-brands fa-html5 fa-4x"></i>
+                                    </a>
+                                </li>
+                                <li class="item" id="css">
+                                    <a href="">
+                                        <i class="fa-brands fa-css3-alt fa-4x"></i>
+                                    </a>
+                                </li>
+                                <li class="item" id="javascript">
+                                    <a href="">
+                                        <i class="fa-brands fa-js fa-4x"></i>
+                                    </a>
+                                </li>
+                                <li class="item" id="bootstrap">
+                                    <a href="">
+                                        <i class="fa-brands fa-bootstrap fa-4x"></i>
+                                    </a>
+                                </li>
+                                <li class="item" id="react-js">
+                                    <a href="">
+                                        <i class="fa-brands fa-react fa-4x"></i>
+                                    </a>
+                                </li>
+                                <li class="item" id="git">
+                                    <a href="">
+                                        <i class="fa-brands fa-git fa-4x"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills__heading flex-block">
+                            <p class="h5">...to my projects throughout this Front-end Web Dev Bootcamp</p>
+                        </div>
+
+
                     </div>
                 </div>
-            </div>
+                </div>
+                </div>
+            </section>
+
+            <!-- ====================================== End Skills Section ====================================== -->
+
+            <!-- ====================================== Start Projects Section ====================================== -->
+            <section id="projects">
+                <div class="container">
+                    <div class="project__content py-4">
+
+                        <div class="row" id="card-wrapper">
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://www.ntudesignindustries.com/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>NTUDI 2022</h3>
+                                      <p class="card-text">A student-led project that showcases their final undergraduate work to the industry.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://www.dcloud9.com/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>dcloud9 ltd.</h3>
+                                      <p class="card-text">A website built for a team of DevOps engineers that utilises cloud automation.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://jemcap.github.io/horiseon-refactor-project/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Horiseon</h3>
+                                      <p class="card-text">A project part of the Front-End Web Development bootcamp that involves code refactoring.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://jemcap.github.io/responsive-dev-portfolio/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Responsive Portfolio Website</h3>
+                                      <p class="card-text">A simple, responsive personal portfolio website.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://jemcap.github.io/clock-project/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Clock</h3>
+                                      <p class="card-text">A simple, single-page website that uses HTML, CSS and Javascript to tell the time on screen.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <a href="https://jemcap.github.io/bootcamp-pre-work/">
+                                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h3>Pre-work</h3>
+                                      <p class="card-text">A project part of the Front-End Web Development bootcamp that basic HTML and CSS layout.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                </div>
+                </div>
+            </section>
         </section>
         <!-- ====================================== End Projects Section ====================================== -->
 
 
-        <!-- ====================================== Start Skills Section ====================================== -->
-        <section id="#skills">
 
-            <div class="container-fluid my-5">
-                <div class="skills-wrapper">
-                    <div class="skills__heading flex-block">
-                        <h5 class="display-6">Technical skills</h5>
-                        <h1 class="display-5">Knowledge is power</h1>
-                        <h5 class="display-6">I will be learning and applying</h5>
-                    </div>
-
-
-                    <div class="skills__tech flex">
-
-                        <ul class="tech__items flex no-style">
-                            <li class="item" id="html5">
-                                <a href="">
-                                    <i class="fa-brands fa-html5 fa-4x"></i>
-                                </a>
-                            </li>
-                            <li class="item" id="css">
-                                <a href="">
-                                    <i class="fa-brands fa-css3-alt fa-4x"></i>
-                                </a>
-                            </li>
-                            <li class="item" id="javascript">
-                                <a href="">
-                                    <i class="fa-brands fa-js fa-4x"></i>
-                                </a>
-                            </li>
-                            <li class="item" id="bootstrap">
-                                <a href="">
-                                    <i class="fa-brands fa-bootstrap fa-4x"></i>
-                                </a>
-                            </li>
-                            <li class="item" id="react-js">
-                                <a href="">
-                                    <i class="fa-brands fa-react fa-4x"></i>
-                                </a>
-                            </li>
-                            <li class="item" id="git">
-                                <a href="">
-                                    <i class="fa-brands fa-git fa-4x"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills__heading flex-block">
-                        <p class="h5">...to my projects throughout this Front-end Web Dev Bootcamp</p>
-                    </div>
-
-
-                </div>
-            </div>
-            </div>
-            </div>
-        </section>
-        <!-- ====================================== End Skills Section ====================================== -->
 
 
 
@@ -258,7 +261,7 @@
 
     </main>
     <!-- ====================================== End Main Section ====================================== -->
-
+<section id="contact">
     <div class="container py-5">
         <div class="contact__heading">
             <h1>Got something for me?</h1>
@@ -268,73 +271,64 @@
 
         <!-- Bootstrap 5 starter form -->
         <form id="contactForm">
-      
-          <!-- Name input -->
-          <div class="mb-3">
-            <label class="form-label" for="name">Name</label>
-            <input class="form-control" id="name" type="text" placeholder="Name" />
-          </div>
-      
-          <!-- Email address input -->
-          <div class="mb-3">
-            <label class="form-label" for="emailAddress">Email Address</label>
-            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
-          </div>
-      
-          <!-- Message input -->
-          <div class="mb-3">
-            <label class="form-label" for="message">Message</label>
-            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
-          </div>
-      
-          <!-- Form submit button -->
-          <div class="d-grid">
-            <button class="btn btn-primary btn-md" id="first-btn" href="#" type="submit">Submit</button>
-            
-          </div>
-      
+
+            <!-- Name input -->
+            <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" name="name" />
+            </div>
+
+            <!-- Email address input -->
+            <div class="mb-3">
+                <label class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" name="email"/>
+            </div>
+
+            <!-- Message input -->
+            <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message"
+                    style="height: 10rem;"></textarea>
+            </div>
+
+            <!-- Form submit button -->
+            <div class="d-grid">
+                <button class="btn btn-primary btn-md" id="first-btn" type="submit" value="submit">Submit</button>
+
+            </div>
+
         </form>
-      
-      </div>
+
+    </div>
+</section>
 
 
     <!-- ====================================== Start Footer ====================================== -->
 
-    <footer class="bg-light text-center text-white">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <!-- Grid container -->
-        <div class="container p-4 pb-0">
+        <div class="container pt-4">
             <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
-                        class="fab fa-google"></i></a>
+            <section class="mb-4" id="footer-btn">
 
                 <!-- Instagram -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
+                <a class="btn btn-link btn-floating btn-xl text-dark m-1" href="https://www.instagram.com/capitogram/" target="_blank" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram fa-2xl"></i></a>
 
                 <!-- Linkedin -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-link btn-floating btn-xl text-dark m-1" href="https://www.linkedin.com/in/joshuaecapito/" target="_blank" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin fa-2xl"></i></a>
                 <!-- Github -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
-                        class="fab fa-github"></i></a>
+                <a class="btn btn-link btn-floating btn-xl text-dark m-1" href="https://github.com/jemcap" target="_blank" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github fa-2xl"></i></a>
             </section>
             <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright: Josh Capito
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright: Josh Capito
         </div>
         <!-- Copyright -->
     </footer>
